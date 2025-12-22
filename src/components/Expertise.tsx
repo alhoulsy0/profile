@@ -25,7 +25,7 @@ export default function Expertise() {
                 'End-to-End Frameworks (Playwright/Cypress)',
                 'CI/CD Pipeline Integration',
                 'Performance Engineering (JMeter)',
-                '"Zero-Touch" Delivery'
+                '&quot;Zero-Touch&quot; Delivery'
             ]
         },
         {
@@ -70,7 +70,7 @@ export default function Expertise() {
                     viewport={{ once: true }}
                     className="text-center mb-20"
                 >
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">The "Quad-Core" Expertise</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">The &quot;Quad-Core&quot; Expertise</h2>
                     <p className="text-slate-400 max-w-2xl mx-auto">
                         Operating at the intersection of Strategy, Scale, Intelligence, and Defense.
                     </p>

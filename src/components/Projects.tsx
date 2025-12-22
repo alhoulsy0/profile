@@ -1,10 +1,10 @@
 'use client'
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
-import { ExternalLink, Github, FolderOpen, Globe } from 'lucide-react'
+import { FolderOpen } from 'lucide-react'
 import { MouseEvent } from 'react'
 import clsx from 'clsx'
 
-function ProjectCard({ project, index }: { project: any, index: number }) {
+function ProjectCard({ project, index }: { project: { badgeColor?: string; badge: string; title: string; role: string; description: string; tags: string[] }, index: number }) {
     const mouseX = useMotionValue(0)
     const mouseY = useMotionValue(0)
 
@@ -134,7 +134,7 @@ export default function Projects() {
         {
             title: 'Saudi Post (SPL) – TMMi Transformation',
             role: 'TMMi Consultant',
-            description: 'Spearheaded the quality maturity roadmap for the Kingdom’s logistics backbone. Diagnosed process gaps and implemented TMMi Level 3 frameworks to standardize delivery.',
+            description: 'Spearheaded the quality maturity roadmap for the Kingdom&apos;s logistics backbone. Diagnosed process gaps and implemented TMMi Level 3 frameworks to standardize delivery.',
             tags: ['TMMi Strategy', 'Process Architecture'],
             badge: 'TMMi Certified',
             badgeColor: 'gold'
@@ -158,15 +158,15 @@ export default function Projects() {
         {
             title: 'ZATCA (VAT) – National Project Management',
             role: 'Quality Project Manager',
-            description: 'Directed the Quality Management Office (QMO) for the national Value Added Tax implementation. Managed resources and timelines to certify financial precision for the Kingdom\'s fiscal reform.',
+            description: 'Directed the Quality Management Office (QMO) for the national Value Added Tax implementation. Managed resources and timelines to certify financial precision for the Kingdom&apos;s fiscal reform.',
             tags: ['Project Management (PMP)', 'Financial QA'],
             badge: 'Fintech',
             badgeColor: 'emerald'
         },
         {
-            title: 'SASO – The "Saber" Standard',
+            title: 'SASO – The &quot;Saber&quot; Standard',
             role: 'TMMi Consultant & Automation Lead',
-            description: 'Established the national quality benchmark for the "Saber" import platform. Built a dual-layer strategy: TMMi process governance for the team and automated gates for the software.',
+            description: 'Established the national quality benchmark for the &quot;Saber&quot; import platform. Built a dual-layer strategy: TMMi process governance for the team and automated gates for the software.',
             tags: ['TMMi', 'Saber Platform', 'Process Improvement'],
             badge: 'TMMi Certified',
             badgeColor: 'gold'
@@ -174,7 +174,7 @@ export default function Projects() {
         {
             title: 'Baladi (MOMRA) – Smart City Governance',
             role: 'Project Manager & TMMi Consultant',
-            description: 'Led the strategic overhaul of the municipal platform\'s quality processes. Managed the transition to a TMMi-compliant environment for hundreds of city services.',
+            description: 'Led the strategic overhaul of the municipal platform&apos;s quality processes. Managed the transition to a TMMi-compliant environment for hundreds of city services.',
             tags: ['Project Management', 'TMMi Process Improvement'],
             badge: 'Smart City',
             badgeColor: 'emerald'
@@ -207,7 +207,7 @@ export default function Projects() {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-500">
-                            The "Perfect 10" Portfolio
+                            The &quot;Perfect 10&quot; Portfolio
                         </h2>
                         <p className="text-slate-400 mt-4 max-w-lg">
                             High-stakes engineering missions delivering national impact.

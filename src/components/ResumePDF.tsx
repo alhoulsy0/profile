@@ -82,7 +82,7 @@ export const ResumeDocument = () => (
                         <Text style={styles.h3}>M.Sc. Informatics</Text>
                         <Text style={styles.h4}>University Sultan Zainal Abidin</Text>
                         <Text style={styles.date}>2023 — 2025 | Malaysia</Text>
-                        <Text style={{ fontSize: 8, color: '#4B5563' }}>Thesis: Priority-Based Software Quality Framework using AHP.</Text>
+                        <Text style={{ fontSize: 8, color: '#4B5563' }}>Thesis: &quot;Priority-Based Software Quality Framework using AHP&quot;.</Text>
                     </View>
 
                     <View style={{ marginBottom: 10 }}>
@@ -182,7 +182,7 @@ export const ResumeDocument = () => (
                         </View>
                         <Text style={styles.h4}>Jodayn for IT (Riyadh, KSA)</Text>
                         <Text style={styles.bullet}>• <Text style={{ fontWeight: 'bold' }}>Government Transformation:</Text> Led TMMi Level 5 Quality Maturity initiatives for ZATCA (Tax Authority) and Saudi Post (SPL).</Text>
-                        <Text style={styles.bullet}>• <Text style={{ fontWeight: 'bold' }}>AI Integrity:</Text> Engineered "Fairness Frameworks" using SHAP & LIME to audit AI decision models.</Text>
+                        <Text style={styles.bullet}>• <Text style={{ fontWeight: 'bold' }}>AI Integrity:</Text> Engineered &quot;Fairness Frameworks&quot; using SHAP & LIME to audit AI decision models.</Text>
                         <Text style={styles.bullet}>• <Text style={{ fontWeight: 'bold' }}>Fintech Security:</Text> Designed PKI/TLS architectures for secure digital document transmission.</Text>
                         <Text style={styles.bullet}>• <Text style={{ fontWeight: 'bold' }}>Red Teaming:</Text> Conducted offensive security audits (Burp Suite) on critical REST APIs.</Text>
                     </View>

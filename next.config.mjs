@@ -8,6 +8,9 @@ const nextConfig = {
         // This allows production builds to complete even if there are type errors
         ignoreBuildErrors: true,
     },
+    experimental: {
+        esmExternals: "loose",
+    },
 };
 
 export default nextConfig;

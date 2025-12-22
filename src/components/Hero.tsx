@@ -1,21 +1,18 @@
 'use client';
 
-import { ArrowRight, FileDown, Terminal, Shield, Cpu } from "lucide-react";
+import { ArrowRight, Terminal, Shield } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from 'react';
-import { ResumeDocument } from "@/components/ResumePDF";
-import Link from 'next/link';
-import { ArrowDownToLine } from 'lucide-react';
-
-// Dynamic import for PDFDownloadLink to avoid SSR issues
-const PDFDownloadLink = dynamic(
-    () => import("@react-pdf/renderer").then((mod) => mod.PDFDownloadLink),
+// Dynamic import for ResumeDownloadButton to completely isolate @react-pdf/renderer
+const ResumeDownloadButton = dynamic(
+    () => import("@/components/ResumeDownloadButton"),
     {
         ssr: false,
         loading: () => <button className="flex items-center gap-2 px-8 py-4 bg-slate-900 text-slate-500 border border-slate-700 rounded-full font-semibold transition-all">Loading PDF...</button>,
     }
 );
+import Link from 'next/link';
 
 export default function Hero() {
     const { scrollY } = useScroll()
@@ -118,16 +115,7 @@ export default function Hero() {
                         </Link>
 
                         {/* Download CV Button Logic */}
-                        <PDFDownloadLink document={<ResumeDocument />} fileName="Salah_Yakoup_CV.pdf">
-                            <motion.button
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="flex items-center gap-2 px-8 py-4 bg-slate-900 text-slate-300 border border-slate-700 rounded-full font-semibold hover:bg-slate-800 hover:text-white transition-all hover:border-slate-600"
-                            >
-                                Download Resume
-                                <ArrowDownToLine className="w-4 h-4" />
-                            </motion.button>
-                        </PDFDownloadLink>
+                        <ResumeDownloadButton />
 
                     </div>
                 </motion.div>

@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, Send } from 'lucide-react'
+import { Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Contact() {
     return (
@@ -16,9 +16,9 @@ export default function Contact() {
                     className="max-w-4xl mx-auto glass-card rounded-3xl p-8 md:p-16 border-slate-800"
                 >
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl md:text-5xl font-bold mb-6">Let's Build Something Unbreakable</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6">Let&apos;s Build Something Unbreakable</h2>
                         <p className="text-slate-400">
-                            Whether you need an AI Security Audit or a full-stack automation architecture, I'm ready to help.
+                            Whether you need an AI Security Audit or a full-stack automation architecture, I&apos;m ready to help.
                         </p>
                     </div>
 

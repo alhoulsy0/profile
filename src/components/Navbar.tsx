@@ -57,7 +57,7 @@ export default function Navbar() {
 
                     <Link href="#contact">
                         <button className="hidden md:block bg-emerald-500/10 border border-emerald-500/50 text-emerald-400 px-5 py-2 rounded-full text-sm font-semibold hover:bg-emerald-500 hover:text-white transition-all shadow-[0_0_10px_rgba(52,211,153,0.2)] hover:shadow-[0_0_20px_rgba(52,211,153,0.4)]">
-                            Let's Talk
+                            Let&apos;s Talk
                         </button>
                     </Link>
                 </div>

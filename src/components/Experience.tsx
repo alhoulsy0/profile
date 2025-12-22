@@ -42,11 +42,11 @@ export default function Experience() {
             note: "(Formerly Jodayn)",
             mission: "Architected the digital defense and quality backbone for a nation’s most critical infrastructure. Operated at the intersection of AI innovation, cybersecurity, and process maturity.",
             operations: [
-                { title: "AI Integrity & Ethics", text: "Engineered the \"Fairness Framework\" for AI decision-making models using SHAP & LIME, ensuring algorithmic accountability for government use-cases." },
+                { title: "AI Integrity & Ethics", text: "Engineered the &quot;Fairness Framework&quot; for AI decision-making models using SHAP & LIME, ensuring algorithmic accountability for government use-cases." },
                 { title: "The TMMi Level 5 Transformation", text: "Spearheaded a global maturity initiative, guiding enterprise organizations to the pinnacle of quality governance (Level 5), a status held by few entities worldwide." },
                 { title: "Fintech Security Shield", text: "Designed the PKI & Digital Signature architecture for secure document transmission, fortifying the financial sector against tampering." },
                 { title: "Offensive Security (Red Teaming)", text: "Executed deep-dive Burp Suite penetration tests on REST APIs, proactively hunting vulnerabilities before they could threaten national data." },
-                { title: "DevSecOps Pipeline", text: "Built the \"Invisible Wall\" of security—automated Azure DevOps/Jenkins pipelines that enforce code quality gates and security checks on every commit." }
+                { title: "DevSecOps Pipeline", text: "Built the &quot;Invisible Wall&quot; of security—automated Azure DevOps/Jenkins pipelines that enforce code quality gates and security checks on every commit." }
             ],
             tags: ["#AI_Security", "#TMMi_L5", "#DevSecOps"]
         },
@@ -70,7 +70,7 @@ export default function Experience() {
             mission: "Bridged the engineering gap between Silicon Valley and the Middle East, ensuring the flagship Nexus line met global standards.",
             operations: [
                 { title: "The Google Alliance", text: "Managed the strategic engineering partnership for the Nexus 5 rollout, validating pure Android OS builds directly with Google HQ engineering teams." },
-                { title: "Global Carrier Certification", text: "Led the \"Green Light\" automation protocols for regional carrier compliance, ensuring the hardware performed flawlessly across diverse network infrastructures." },
+                { title: "Global Carrier Certification", text: "Led the &quot;Green Light&quot; automation protocols for regional carrier compliance, ensuring the hardware performed flawlessly across diverse network infrastructures." },
                 { title: "Mobile Automation Scale", text: "Architected native automation frameworks that slashed regression testing cycles for Android ecosystems." }
             ],
             tags: ["#Android", "#Nexus", "#Automation"]
@@ -153,7 +153,7 @@ export default function Experience() {
 
                                     <div className="mb-8 p-4 bg-slate-950/50 rounded-lg border-l-2 border-amber-500/50">
                                         <p className="text-slate-300 italic text-sm leading-relaxed">
-                                            "{exp.mission}"
+                                            &quot;{exp.mission}&quot;
                                         </p>
                                     </div>
 
