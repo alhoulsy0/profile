@@ -25,7 +25,7 @@ export default function Expertise() {
                 'End-to-End Frameworks (Playwright/Cypress)',
                 'CI/CD Pipeline Integration',
                 'Performance Engineering (JMeter)',
-                '&quot;Zero-Touch&quot; Delivery'
+                '"Zero-Touch" Delivery'
             ]
         },
         {
