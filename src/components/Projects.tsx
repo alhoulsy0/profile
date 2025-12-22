@@ -164,7 +164,7 @@ export default function Projects() {
             badgeColor: 'emerald'
         },
         {
-            title: 'SASO – The "Saber" Standard',
+            title: 'SASO (Saudi Standards) – The "Saber" Standard',
             role: 'TMMi Consultant & Automation Lead',
             description: 'Established the national quality benchmark for the "Saber" import platform. Built a dual-layer strategy: TMMi process governance for the team and automated gates for the software.',
             tags: ['TMMi', 'Saber Platform', 'Process Improvement'],
